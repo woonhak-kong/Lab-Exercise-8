@@ -8,6 +8,7 @@ class Character
 {
 public:
 	Character(string name, int hp, int attack);
+	virtual ~Character() {};
 
 	void setName(string name);
 	void setHP(int hp);
